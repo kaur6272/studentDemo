@@ -15,6 +15,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class StudentDemo {
 
     private String name;
+    private int sID;
 
     //constructor
     public StudentDemo(String givenName)
@@ -33,6 +34,22 @@ public class StudentDemo {
      */
     public void setName(String givenName) {
         name = givenName;
+    }
+
+    /**
+     * @return the sID
+     */
+    public int getsID() 
+    {
+        return sID;
+    }
+
+    /**
+     * @param sID the sID to set
+     */
+    public void setsID(int sID) 
+    {
+        this.sID = sID;
     }
     
     

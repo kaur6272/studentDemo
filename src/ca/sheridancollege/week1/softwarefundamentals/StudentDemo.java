@@ -16,7 +16,8 @@ public class StudentDemo {
 
     private String name;
     private int sID;
-
+    private int maxCourse;
+    
     //constructor
     public StudentDemo(String givenName)
     {
@@ -50,6 +51,20 @@ public class StudentDemo {
     public void setsID(int sID) 
     {
         this.sID = sID;
+    }
+
+    /**
+     * @return the maxCourse
+     */
+    public int getMaxCourse() {
+        return maxCourse;
+    }
+
+    /**
+     * @param maxCourse the maxCourse to set
+     */
+    public void setMaxCourse(int maxCourse) {
+        this.maxCourse = maxCourse;
     }
     
     

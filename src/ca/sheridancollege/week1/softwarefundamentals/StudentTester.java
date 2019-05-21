@@ -29,7 +29,7 @@ public class StudentTester {
         {
             System.out.println(StudentLst[i].getName());
         }
-           System.out.println("Test Fetch");
+           System.out.println("Test Fetch New");
         }
         
     }
